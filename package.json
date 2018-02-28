@@ -1,19 +1,19 @@
 {
-  "name": "goodguess",
-  "version": "0.0.1",
+  "name": "goodlib",
+  "version": "1.0.0",
   "description": "Some core functions and helper classes. List, Dictionary, Stack, Vec2, Rect, Range2, Tree. Optimized for speed and memory efficiency. Also an object pool a few mixins and Helpers for Dom, Array and Object manipulation + general",
-  "main": "goodguess.es5.umd.min.js",
+  "main": "goodlib.es5.umd.min.js",
   "module": "index.js",
-  "typings": "goodguess.d.ts",
-  "unpkg": "goodguess.es5.iife.min.js",
+  "typings": "goodlib.d.ts",
+  "unpkg": "goodlib.es5.iife.min.js",
   "files": [
-    "goodguess.es5.iife.min.js",
-    "goodguess.es5.umd.min.js",
-    "goodguess.es5.es2015.min.js",
-    "goodguess.es6.min.js",
-    "goodguess.es6.umd.min.js",
-    "goodguess.d.ts",
-    "goodguess.iife.d.ts",
+    "goodlib.es5.iife.min.js",
+    "goodlib.es5.umd.min.js",
+    "goodlib.es5.es2015.min.js",
+    "goodlib.es6.min.js",
+    "goodlib.es6.umd.min.js",
+    "goodlib.d.ts",
+    "goodlib.iife.d.ts",
     "*"
   ],
   "scripts": {
@@ -92,7 +92,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/allnamesrtaken/goodguess.git"
+    "url": "git://github.com/allnamesrtaken/goodlib.git"
   },
   "keywords": [
     "Typescript"
