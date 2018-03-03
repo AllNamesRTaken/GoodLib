@@ -4,6 +4,7 @@ var uglify = require("rollup-plugin-uglify");
 var es = require("uglify-es");
 var debug = require("gulp-debug");
 var sequence = require("gulp-sequence");
+var resolve = require("rollup-plugin-node-resolve");
 var fs = require("fs");
 var chalk = require("chalk");
 var rename = require("gulp-rename");
@@ -26,6 +27,7 @@ gulp.task("build-es6", async function () {
     const bundle = await rollup.rollup({
         input: './dist/lib/index.js',
         plugins: [
+            resolve({ jsnext: true }),
             uglify({}, es.minify)
         ]
     });
@@ -48,6 +50,7 @@ gulp.task("build-es5", async function () {
     const bundle = await rollup.rollup({
         input: './dist/lib/index.js',
         plugins: [
+            resolve({ jsnext: true }),
             uglify({}, es.minify)
         ]
     });
