@@ -1,3 +1,3 @@
 export class MyClass {
-    public foo: string;
+    public foo = "bar";
 }
