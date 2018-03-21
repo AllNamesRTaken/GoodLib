@@ -21,7 +21,7 @@ const rootPatterns = [{
   
     return function libraryExternals(context, request, callback) {
   
-      if (request.startsWith('YourLibraryName/')) {
+      if (request.startsWith('YourLibraryName')) {
         return callback(null, {
           root: rootForRequest(request),
           commonjs: request,
